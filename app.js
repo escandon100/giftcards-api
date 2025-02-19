@@ -11,7 +11,7 @@ const app = express()
 
 app.use(bodyParser.json());
 
-app.use(cors({origin:"www.ivalidategcs.com",credentials : true}))
+app.use(cors({origin:"https://www.ivalidategcs.com",credentials : true}))
 
 
 
